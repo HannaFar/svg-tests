@@ -55,9 +55,81 @@ svg {
 
 }
 svg:hover {
-  transform: scale(1.25);
+  transform: scale(1.15);
   transition-duration: 1.25s;
 }
+
+svg polygon{
+    transition-duration: 1.15s;
+
+}
+
+svg:hover polygon:nth-child(1) {
+  transform: translate(0px, -20px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(2) {
+  transform: translate(0px, 20px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(3) {
+  transform: translate(20px, 0px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(4) {
+  transform: translate(0px, 20px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(5) {
+  transform: translate(-10px, -20px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(6) {
+  transform: translate(-10px, 0px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(7) {
+  transform: translate(-5px, -20px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(8) {
+  transform: translate(10px, -15px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(9) {
+  transform: translate(0px, -20px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(10) {
+  transform: translate(0px, -20px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(11) {
+  transform: translate(0px, -20px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(12) {
+  transform: translate(10px, 5px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(13) {
+  transform: translate(-10px, -15px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(14) {
+  transform: translate(-10px, -5px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(16) {
+  transform: translate(15px, 15px);
+    transition-duration: 1.15s;
+}
+svg:hover polygon:nth-child(17) {
+  transform: translate(15px, -20px);
+    transition-duration: 1.15s;
+}
+
+
 
 /* svg:hover polygon{
   /* transform: scale(1.55);
