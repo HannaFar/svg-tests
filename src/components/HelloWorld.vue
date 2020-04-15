@@ -50,7 +50,7 @@ export default {
 }
 svg {
   height: 100%;
-  fill: lightsalmon;
+  fill: rgb(255, 122, 233);
     transition-duration: 1.25s;
 
 }
